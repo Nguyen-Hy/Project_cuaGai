@@ -22,7 +22,7 @@ public class main {
             System.out.print("\n\t\tNhập Ngày Sinh: ");
             ngayS = scanner.nextInt();
             crush.setNgayS(ngayS);
-        }while( ngayS < 0 ||  ngayS > 30 );
+        }while( ngayS < 1 ||  ngayS > 30 );
 
         int thangS;
         do{
